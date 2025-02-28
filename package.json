@@ -1,0 +1,33 @@
+{
+  "name": "boston-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Prueba tecnica para boston",
+  "author": "Jimmy Sebastián Higa Ramirez",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "1.7.9",
+    "chart.js": "^4.4.8",
+    "sweetalert2": "^11.17.2",
+    "vue": "3.5.13",
+    "vue-content-loader": "2.0.1",
+    "vue-router": "4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.0.7",
+    "@types/gapi.auth2": "0.0.61",
+    "@vitejs/plugin-vue": "5.2.1",
+    "@vue/tsconfig": "0.7.0",
+    "dayjs": "1.11.13",
+    "gapi-script": "1.2.0",
+    "tailwindcss": "4.0.7",
+    "typescript": "~5.7.2",
+    "vite": "6.1.0",
+    "vue-tsc": "2.2.0"
+  }
+}
