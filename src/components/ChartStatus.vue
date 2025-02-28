@@ -110,7 +110,9 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <div class="w-[600px]  mx-auto mt-4">
+  <div class="w-full overflow-x-auto">
+    <div class="xl:w-[600px] w-[500px] md:mx-auto mx-10 mt-4">
       <canvas ref="barChartCanvas"></canvas>
     </div>
+  </div>
 </template>

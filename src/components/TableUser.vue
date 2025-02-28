@@ -37,10 +37,10 @@ onMounted(() => {getDataTableUser()});
 
 <template>
 
-  <div class="w-[600px] mx-47" id="ranking">
+  <div class="xl:w-[600px] w-3/4 2xl:mx-47 mx-18 " id="ranking">
     <h2 class="text-xl font-bold text-white mb-4">Ranking de Usuarios con más transacciones</h2>
   
-      <div class="overflow-x-auto rounded-lg shadow-lg">
+      <div class="overflow-x-auto rounded-lg shadow-lg ">
         <table class="w-full border border-[#56ab92c5] bg-transparent text-white">
           <thead class="bg-[#56ab92c5] text-gray-200  text-sm">
             <tr>

@@ -131,7 +131,7 @@ onBeforeUnmount(() => {
   <div class="w-full overflow-x-auto">
     <SkeletonChartSecond  v-if="loading"/>
     <template v-else>
-        <div class="w-[600px] h-[300px] mx-auto">
+        <div class="w-[600px] h-[300px] md:mx-auto mx-4">
           <canvas ref="cityChartCanvas"></canvas>
         </div>
     </template>

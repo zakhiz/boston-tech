@@ -107,7 +107,7 @@ onBeforeUnmount(() => {
     <SkeletonChartFirst v-if="loading"/>
 
     <template v-else>
-      <div class="w-[600px] mx-auto">
+      <div class="w-[600px] md:mx-auto mx-4">
         <canvas ref="lineChartCanvas"></canvas>
       </div>
     </template>

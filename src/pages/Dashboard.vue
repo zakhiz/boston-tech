@@ -20,7 +20,7 @@ import ChartStatus from '../components/ChartStatus.vue';
         </div>
         <TableTransactions/>
 
-        <div class="flex justify-around pt-24 pb-20">
+        <div class="flex xl:flex-row flex-col xl:items-start items-center xl:gap-0 gap-10 xl:justify-around pt-24 pb-20">
           <TableUser/>
           <ChartStatus/>
         </div>
